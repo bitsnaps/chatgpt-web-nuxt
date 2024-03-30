@@ -1,0 +1,63 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "dev": {
+      "name": "dev",
+      "command": "npm run dev",
+      "runAtStart": true
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "preview": {
+      "name": "preview",
+      "command": "npm run preview",
+      "runAtStart": false
+    },
+    "build-only": {
+      "name": "build-only",
+      "command": "npm run build-only",
+      "runAtStart": false
+    },
+    "type-check": {
+      "name": "type-check",
+      "command": "npm run type-check",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    },
+    "lint:fix": {
+      "name": "lint:fix",
+      "command": "npm run lint:fix",
+      "runAtStart": false
+    },
+    "bootstrap": {
+      "name": "bootstrap",
+      "command": "npm run bootstrap",
+      "runAtStart": false
+    },
+    "common:cleanup": {
+      "name": "common:cleanup",
+      "command": "npm run common:cleanup",
+      "runAtStart": false
+    },
+    "common:prepare": {
+      "name": "common:prepare",
+      "command": "npm run common:prepare",
+      "runAtStart": false
+    }
+  }
+}
